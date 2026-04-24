@@ -178,3 +178,15 @@ JAVA
     It is acheived in two ways: Abstract class & Interface.
     1. Abstract class: It is declared using abstract keyword. It can have abstract classes with no body and concrete classes with body. It cannot create object for abstract class. Must be extended. Can have constructor and variables.
     2. Interface: It is declared using interface keyword. All methods are abstract by default. Cannot create object for interface. Class uses implements. Supports multiple inheritance.
+
+21. What is Packages?
+    It is a namespace which groups related classes and interface together.
+    It is used to avoid name conflict and improve the code reusability.
+    It has built in packages and user defined packages.
+
+22. What is Access modifiers?
+    Access modifiers can define who can access what in the code.
+    1. Private - Can only be accessed in same class.
+    2. Default - Can only be accessed in same class & same package.
+    3. Protected - Can only be accessed in same class, package & subclass.
+    4. Public - Can be accessed in anywhere like class, package, sub class & other packages.
