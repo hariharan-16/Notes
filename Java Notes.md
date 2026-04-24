@@ -202,3 +202,53 @@ JAVA
         3. Finally: Always executed whether the code gives exception occurs or not.
         4. Throw: Used to throw an exception explicitly.
         5. Throws: Declares exception in method signature.
+    
+24. What is Collections?
+    Collection is a concept of framework which used to store, manage & manipulate group of objects.
+    It is used to manage dynamic size, easy data manipulation & built in methods like (sorting, searching, etc..).
+    Collection is an interface which extends into List & Set interfaces.
+
+25. What is List?
+    List is an interface from the collection which is used to store ordered collection of elements.
+    It maintains insertion order, allows duplication, allows search index based access & store null values.
+    1. Array List: It is a class which implemented class of list interface.
+        It allows hetrogenous data.
+        Insertion order is prevented.
+        Duplicate elements is allowed.
+        Multiple nulls are allowed.
+        Example: 
+            List<String> list = new ArrayList<>();
+            list.add("A");
+            list.add("B");
+            list.add("C");
+            System.out.println(list.get(1)); //B
+
+26. What is Set?
+    Set is an interface from the collection which is used to store collection of unique elements.
+    It can store null value only ones, Focus on uniqueness of data, No duplication allowed & No index based access.
+    1. HashSet: It is a class which implemented class of set interface.
+        Hetrogeneous data is allowed.
+        Insertion order is not preserved.
+        Duplicate elements is not allowed.
+        Multiple nulls are allowed.
+        Example:
+            Set<Integer> set = new HashSet<>();
+            set.add(10);
+            set.add(20);
+            set.add(10); // ignored
+            System.out.println(set); // 10, 20
+
+27. What is Map?
+    Map is an interface from the collection which is used to store the data in key-value pairs.
+    Every key is unique, but the value can be duplicated.
+    One key maps exactly to one value.
+    1. HashMap: It is used to store key value pair in hash table for faster access.
+        No duplicated values.
+        One null key and multiple null value.
+        Unordered & Faster performance 
+        Example:
+            HashMap<Integer, String> map = new HashMap<>();
+            map.add(1, "One");
+            map.add(2, "Two");
+            map.add(3, "Three");
+            System.out.println(map.get(3)); // Three
