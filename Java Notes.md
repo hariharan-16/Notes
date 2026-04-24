@@ -167,3 +167,14 @@ JAVA
     2. Multilevel Inheritance - It is a chain of inheritance. Grand Parent -> Parent -> Child.
     3. Hierarchical Inheritance - One parent class have multiple child class.
     4. Multiple Inheritance - Java doesn't support multiple inheritance to avoid ambiguity error. It is acheived using Interface. 
+
+19. What is Polymorphism?
+    Polymorphism means "Many forms". One method or objects behaves differently based on the situation. One name, multiple behaviours.
+    1. Compile time polymorphism: Also called as method overloading or early binding or static binding. The method decide on the compile time based on numbers, types and order of the parameters. Example: Method overloading.
+    2. Run time polymorphism: Also called as method overriding or late binding or dynamic binding. The method decide on the run time based on objects. Example: Method overriiding.
+
+20. What is Abstraction?
+    Abstraction is the process of hiding implementation details and showing necessary functionality for the users.
+    It is acheived in two ways: Abstract class & Interface.
+    1. Abstract class: It is declared using abstract keyword. It can have abstract classes with no body and concrete classes with body. It cannot create object for abstract class. Must be extended. Can have constructor and variables.
+    2. Interface: It is declared using interface keyword. All methods are abstract by default. Cannot create object for interface. Class uses implements. Supports multiple inheritance.
