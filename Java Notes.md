@@ -123,7 +123,6 @@ JAVA
         String name;
         public static void main(String arg[]){
             Student[] students = new Student[3];
-
             students[0] = new Student(1, "Hari");
             students[1] = new Student(2, "Vijay");
             students[2] = new Student(3, "Kumar");
