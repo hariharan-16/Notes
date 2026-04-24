@@ -190,3 +190,15 @@ JAVA
     2. Default - Can only be accessed in same class & same package.
     3. Protected - Can only be accessed in same class, package & subclass.
     4. Public - Can be accessed in anywhere like class, package, sub class & other packages.
+
+23. What is Exception handling?
+    Exception handling is a mechanism which is used to handle run time errors.
+    Exception - An Exception is an unwanted event occurs during the program exectuion.
+    1. Checked exceptions - Checked during the compile time. Must be handled using try-catch or throws.
+    2. Unchecked exceptions - Checked during run time. Not mandatory to handle
+    Exception handling keywords:
+        1. Try: Code which throws exception must be used here
+        2. Catch: Handles the exception.
+        3. Finally: Always executed whether the code gives exception occurs or not.
+        4. Throw: Used to throw an exception explicitly.
+        5. Throws: Declares exception in method signature.
