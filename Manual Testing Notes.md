@@ -53,3 +53,32 @@ Manual Testing
         Developers are involved in the testing.
     Applications:
         Project which the requirement are based on stages.
+
+8. What is V Model?
+    It is a step by step procedure to develop a software.
+    It is also called Verification and Validation Model.
+    Verification:
+        It is a process of reviewing CRS, SRS, Design, Coding, Testing, Testcase and related documents.
+        Verification process is involved with reviewing documents.
+    Validation:
+        It is an actual testing done after the software is developed.
+        Here we execute the test cases.
+    Here both testers and developers are involved parallely.
+    Verification is done to prevent the defect. Validation is done to identify the defect.
+
+    Stages:
+        CRS <==> Acceptance Testing    [ Review CRS, Write Acceptance Testing Plans, Case ]
+	    SRS <==> System Testing    [ Review SRS based on CRS, Write System Testing Plans, Cases ]
+	    HLD <==> Integration Testing [ Review HLD based on SRS, Write Integration Testing Plans, Cases ]
+	    LLD <==> Functionality Testing [ Review LLD based on HLD, Write Functionality Testing Plans, Cases ]
+	    Coding <==> WBT	
+	Here CRS, SRS, HLD, LLD, Coding, WBT comes under Verification Process.
+	Functionality Testing, Integration Testing, System Testing, Acceptance Testing comes under Validation Process.
+    Advantages:
+        Testing is started from the initial stages.
+        Software quality is good.
+    Disadvantages:
+        Initial investment and documentations are high.
+    Applications:
+        Complex projects.
+        Huge or long term projects.
