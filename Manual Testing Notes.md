@@ -28,3 +28,15 @@ Manual Testing
     3. V Model.
     4. Prototype Model.
     5. Agile Model.
+
+6. What is Waterfall Model?
+    It is a step by step procedure to develop a software.
+    It follows linear and sequential approach. It is one of the oldest and simplest model.
+    Advantage:
+        Requirement and design doesn't change.
+        Quality of software is good.
+    Disadvantage:
+        Backtracking is not possible. Example: Requirement can not be changed once design stage is complete.
+        Developers are involved in the testing.
+    Applications:
+        Used in small applications like Alarm, Calander, Notes, etc..
