@@ -11,13 +11,13 @@ Manual Testing
         6. Installation.
         7. Maintenance.
 
-2. What is Requirement analysis?
+2. What is requirement analysis?
     It is a process of gathering the requirement from the clients and understand what the system should do. The BA will convert the CRS(Customer Requirement Specification) to SRS(Software Requirement Specification).
 
-3. What is Feasibility study?
+3. What is feasibility study?
     It is a process of analyzing how much developers needed for the project, how much need to be invested in the ptoject to get profit & which tech stack should be used.
 
-4. What is System Design?
+4. What is system Design?
     In design we will analyze how the architecture, database and UI will be built.
     HLD - High Level Design is used to design the architecture of the project.
     LLD - Low Level Design is used to design feature or module of the project.
@@ -29,7 +29,7 @@ Manual Testing
     4. Prototype Model.
     5. Agile Model.
 
-6. What is Waterfall Model?
+6. What is waterfall model?
     It is a step by step procedure to develop a software.
     It follows linear and sequential approach. It is one of the oldest and simplest model.
     Advantage:
@@ -41,7 +41,7 @@ Manual Testing
     Applications:
         Used in small applications like Alarm, Calander, Notes, etc..
 
-7. What is Spiral Model?
+7. What is spiral model?
     It is a step by step procedure to develop a software.
     In spiral model the software is developed module by module.
     Once requirement collection is completed for module A then we will go to design for module A. Once design is completed in Module A we go for coding and after coding we go  testing for Module A. After everything is perfect we can go for the process of Module B. Otherwise if there are any minor changes it will be fixed with the cycle of Module B. Otherwise if there are any major changes the process of Module B needs to wait and major changes need to fixed again with the cycle after it is fixed we can move to Module B.
@@ -54,7 +54,7 @@ Manual Testing
     Applications:
         Project which the requirement are based on stages.
 
-8. What is V Model?
+8. What is V model?
     It is a step by step procedure to develop a software.
     It is also called Verification and Validation Model.
     Verification:
@@ -83,7 +83,7 @@ Manual Testing
         Complex projects.
         Huge or long term projects.
 
-9. What is Prototype Model?
+9. What is prototype model?
     It is a step by step procedure to develop a software.
     If a customer is new to business or not aware of the requirement or new to the domain we can use prototype model.
     Here we can create a prototype of the software before building the full software and show it to the client, if the client accepts the design we can start to develop the software.
@@ -96,7 +96,7 @@ Manual Testing
     Application:
         Customer is new to business or domain.
 
-10. What is Agile Model?
+10. What is agile model?
     It is a step by step procedure to develop a software.
     It is a process of customer satisfaction through quick delivery of working piece of software.
     Advantages:
@@ -106,7 +106,7 @@ Manual Testing
     Disadvantages:
         Less scope for desing and documentation.
         For agile experienced resource are required.
-    Agile Testing:
+    Agile testing:
         Testing the software by the principles of agile.
             1. Scrum Model.
             2. Extreme Programming.
@@ -115,7 +115,7 @@ Manual Testing
             5. Lean & Kanban
             6. ASDM [Adophile Software Developement Method]
             7. DSDM [Dynamic Software Developement Method]
-    SCRUM Model:
+    SCRUM model:
         It is a step by step procedure or framework which helps teams to work together.
         Release:
             Combination of sprint is called release.
@@ -124,18 +124,18 @@ Manual Testing
         Story:
             Stories are feature or module of the epic.
             One epic contain multiple stories.
-        Story Point:
+        Story point:
             Rough estimation given by developer to develop the story and the tester to test the story.
         Sprint:
             It is an actual time spent by the developers to develop and testers to test the stories.
-        Product Backlog:
+        Product backlog:
             Here we prioritize which story to develop in the current sprint.
-        Sprint Backlog:
+        Sprint backlog:
             List of stories and tasks which must be delivered within the sprint.
-        Burn Down Chart:
+        Burn down chart:
             Total amount of work remaining.
             Pictorial representation of work left vs time.
-        Story Board:
+        Story board:
             Board contains list of pending tasks, in progress or completed tasks.
         Chicken:
             People who bring the project to the company.
@@ -143,10 +143,16 @@ Manual Testing
             Quick and urgent software update to address the critical bug.
             Minor defect(Patch): 3 Hours.
             Major defect(Re-Spin): 1 Day.
-        Fishbone Technique:
+        Fishbone technique:
             Entire team will meet and discuss about the root cause of the defect.
-    SCRUM Meeting Types:
+    SCRUM meeting types:
         1. Sprint planning meeting: First day of every sprint BA will explain the entire team about the project. Explain how each and every story would work to the team.
         2. Daily standup meeting: This will held on daily basis upto 10-15 minutes discuss about what we did yesterday and today's work.
         3. Sprint retrospective meeting: Last day of every sprint discuss about what went well and what didn't went well and what are the plans.
         4. Sprint review meeting: Few weeks before release or sprint the team will discuss about the pending stories which are not included in the sprint and prioritize it.
+
+11. What is software testing?
+    After the software is developed the testing team will test the software before giving it to the client there maybe chance the software may have defect. The process of finding the defect in the software is called software testing.
+    It has 2 types:
+        1. Manual testing: Testing the software again and again manually to find the defect.
+        2. Automation testing: Tester will write the code and run the code automatically test the software and give result as pass or failed.
