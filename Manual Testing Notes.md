@@ -82,3 +82,16 @@ Manual Testing
     Applications:
         Complex projects.
         Huge or long term projects.
+
+9. What is Prototype Model?
+    It is a step by step procedure to develop a software.
+    If a customer is new to business or not aware of the requirement or new to the domain we can use prototype model.
+    Here we can create a prototype of the software before building the full software and show it to the client, if the client accepts the design we can start to develop the software.
+    Advantage:
+        Software quality is good.
+        Requirement changes are allowed.
+    Disadvantages:
+        Time taken and investment is high.
+        Software delay may occurs.
+    Application:
+        Customer is new to business or domain.
