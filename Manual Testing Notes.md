@@ -40,3 +40,16 @@ Manual Testing
         Developers are involved in the testing.
     Applications:
         Used in small applications like Alarm, Calander, Notes, etc..
+
+7. What is Spiral Model?
+    It is a step by step procedure to develop a software.
+    In spiral model the software is developed module by module.
+    Once requirement collection is completed for module A then we will go to design for module A. Once design is completed in Module A we go for coding and after coding we go  testing for Module A. After everything is perfect we can go for the process of Module B. Otherwise if there are any minor changes it will be fixed with the cycle of Module B. Otherwise if there are any major changes the process of Module B needs to wait and major changes need to fixed again with the cycle after it is fixed we can move to Module B.
+    Advantages:
+        Requirement changes are allowed after each cycle.
+        New requirements can be added.
+    Disadvantage:
+        Same process of each and every cycle's module.
+        Developers are involved in the testing.
+    Applications:
+        Project which the requirement are based on stages.
