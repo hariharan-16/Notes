@@ -156,3 +156,23 @@ Manual Testing
     It has 2 types:
         1. Manual testing: Testing the software again and again manually to find the defect.
         2. Automation testing: Tester will write the code and run the code automatically test the software and give result as pass or failed.
+
+12. What is BBT?
+    Black Box Testing is the process of testing the functionality of an application against customer requirements.
+    1. Functional testing.
+    2. Integration testing.
+    3. System testing.
+    4. Acceptance testing.
+    5. Smoke testing.
+    6. Adhoc testing.
+    7. Performance testing.
+    8. Globalization testing.
+    9. Usability testing.
+    10. Exploratory testing.
+    11. Compatability testing.
+    12. Regression testing.
+    13. Comparison testing.
+    14. Accessibility testing.
+    15. Yellow box testing.
+    16. Reliability testing.
+    17. Recovery testing.
