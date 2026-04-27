@@ -95,3 +95,58 @@ Manual Testing
         Software delay may occurs.
     Application:
         Customer is new to business or domain.
+
+10. What is Agile Model?
+    It is a step by step procedure to develop a software.
+    It is a process of customer satisfaction through quick delivery of working piece of software.
+    Advantages:
+        Requirement can be changed anytime.
+        Release should be short.
+        Simple model to follow.
+    Disadvantages:
+        Less scope for desing and documentation.
+        For agile experienced resource are required.
+    Agile Testing:
+        Testing the software by the principles of agile.
+            1. Scrum Model.
+            2. Extreme Programming.
+            3. Future driven developemnt/ Test driven development.
+            4. Crystal clear.
+            5. Lean & Kanban
+            6. ASDM [Adophile Software Developement Method]
+            7. DSDM [Dynamic Software Developement Method]
+    SCRUM Model:
+        It is a step by step procedure or framework which helps teams to work together.
+        Release:
+            Combination of sprint is called release.
+        Epic:
+            Complete set of requirement is called epic.
+        Story:
+            Stories are feature or module of the epic.
+            One epic contain multiple stories.
+        Story Point:
+            Rough estimation given by developer to develop the story and the tester to test the story.
+        Sprint:
+            It is an actual time spent by the developers to develop and testers to test the stories.
+        Product Backlog:
+            Here we prioritize which story to develop in the current sprint.
+        Sprint Backlog:
+            List of stories and tasks which must be delivered within the sprint.
+        Burn Down Chart:
+            Total amount of work remaining.
+            Pictorial representation of work left vs time.
+        Story Board:
+            Board contains list of pending tasks, in progress or completed tasks.
+        Chicken:
+            People who bring the project to the company.
+        Hotfix:
+            Quick and urgent software update to address the critical bug.
+            Minor defect(Patch): 3 Hours.
+            Major defect(Re-Spin): 1 Day.
+        Fishbone Technique:
+            Entire team will meet and discuss about the root cause of the defect.
+    SCRUM Meeting Types:
+        1. Sprint planning meeting: First day of every sprint BA will explain the entire team about the project. Explain how each and every story would work to the team.
+        2. Daily standup meeting: This will held on daily basis upto 10-15 minutes discuss about what we did yesterday and today's work.
+        3. Sprint retrospective meeting: Last day of every sprint discuss about what went well and what didn't went well and what are the plans.
+        4. Sprint review meeting: Few weeks before release or sprint the team will discuss about the pending stories which are not included in the sprint and prioritize it.
