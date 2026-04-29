@@ -197,3 +197,12 @@ Manual Testing
     It is an end to end testing done to find the test environment is similar to the production environment.
     Navigating to all modules and test the end feature is working as expected or not.
     System testing is done after functional and integration testing. When the minimum required module is done.
+
+16. What is acceptance testing?
+    It is an end to end testing done at sitting in the customer place while applying real time business scenarios to the software and check whether the software is capable.
+    Acceptance testing is done after the software is developed and tested by the developers.
+
+17. What is smoke testing?
+    It is a process of testing the critical features of the software before thorough testing.
+    Smoke testing is done before functional, integration and system testing.
+    By this the test engineer will find any blocker defect in early stages and the developer have enough time to fix it.
