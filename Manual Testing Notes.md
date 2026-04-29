@@ -176,3 +176,24 @@ Manual Testing
     15. Yellow box testing.
     16. Reliability testing.
     17. Recovery testing.
+
+13. What is functional testing?
+    Testing each and every components of an applications thoroughly against CRS.
+    First need to do positive testing and then we should go to negative testing. If software is not working for valid data no need to check negative data report and wait for the updated new module.
+    Always do optimized testing (No duplicates).
+
+14. What is integration testing?
+    Testing the dataflow or interface between 2 or more modules.
+    1. Incremental integration testing:
+        Incrementally adding module and test the dataflow between the modules.
+        1. Top-Down approach:
+            The incrementally added module is the child module of the previous module.
+        2. Bottom-Up approach:
+            The incrementally added module is the parent module of the previous module.
+    2. Non incremental integration testing:
+        It is also called as Big Bang method. In this we combine all modules and test the dataflow between modules. Here we don't know which is parent module and which is child module.
+    
+15. What is system testing?
+    It is an end to end testing done to find the test environment is similar to the production environment.
+    Navigating to all modules and test the end feature is working as expected or not.
+    System testing is done after functional and integration testing. When the minimum required module is done.
