@@ -206,3 +206,18 @@ Manual Testing
     It is a process of testing the critical features of the software before thorough testing.
     Smoke testing is done before functional, integration and system testing.
     By this the test engineer will find any blocker defect in early stages and the developer have enough time to fix it.
+
+18. What is adhoc testing?
+    It is a process of testing the software without looking into requirement.
+    1. Buddy testing: TE sit with developer and come up with scenarios.
+    2. Pair testing: TE sit with another TE and come up with scenarios.
+    3. Monkey testing: TE test the software without applying any logic.
+
+19. What is usability testing?
+    It is a process of testing the user friendliness of the software.
+    1. Yellow box testing: Testing the warning messages of the software.
+    2. GUI testing: Testing the visual elements and user interaction of the software.
+    3. Accessibility testing: Testing the user friendliness of the software for physically challanged POV.
+
+20. What is recovery testing?
+    It is a process of testing the software how well it recover from the crash or disaster.
