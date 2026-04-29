@@ -246,3 +246,14 @@ Manual Testing
 25. What is exploratory testing?
     It is a process of testing the software when there is no requirement available for software. We need to look into the software identify & document all possible scenarios and test the scenarios by looking the document. 
     In this process we might misunderstand some of the defect as feature and some of the feature as defect.
+
+26. What is globalization testing?
+    It is a process of testing the software for different type of country languages and other details based on the country.
+    1. Internationalization testing - Testing the software for different type of country standards.
+    2. Localization testing - Testing the software for developed country standards.
+
+17. What is regression testing?
+    It is a process of testing the unchanged features or old features to make sure adding, modifying, removing or fixing the feature doesn't produce any defect in old modules.
+    1. Unit regression testing: Testing only modified module.
+    2. Regional regression testing: Testing the changes and impacted modules.
+    3. Full regional regression testing: Testing all modules.
