@@ -233,3 +233,16 @@ Manual Testing
     2. Stress teting: Testing the software with high number of load.
     3. Volume testing: Testing the software by sending huge amount of data to database.
     4. Soak or Endurance testing: Testing the software by applying the load for particular period of time.
+
+23. What is reliability testing?
+    Testing the functionality of an application for the particular period of time.
+
+24. What is compatibility testing?
+    Testing the functionality of the application with different types of hardware, software, platform, environment, etc..
+    It is done after the application is tested in the base platform.
+    1. Hardware compatibility testing: Testing the application with different types of hardwares like RAM, processor, etc..
+    2. Software compatibility testing: Testing the application with different types of software like ubuntu, windows, mac, etc..
+
+25. What is exploratory testing?
+    It is a process of testing the software when there is no requirement available for software. We need to look into the software identify & document all possible scenarios and test the scenarios by looking the document. 
+    In this process we might misunderstand some of the defect as feature and some of the feature as defect.
