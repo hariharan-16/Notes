@@ -221,3 +221,15 @@ Manual Testing
 
 20. What is recovery testing?
     It is a process of testing the software how well it recover from the crash or disaster.
+
+21. What is comparison testing?
+    It is a process of comparing same type of software which available in the market and find out strength, weakness, advantages & disadvantages with our software.
+
+22. What is performance testing?
+    It is a process of testing the stability and response of application by applying load to it.
+    Load is desired number of users. Stability is ability to withstand the load.
+    Response time is time taken to send response to server + run corresponding program to the server + receive response from the server.
+    1. Load testing: Testing the software with less number or equal number of load.
+    2. Stress teting: Testing the software with high number of load.
+    3. Volume testing: Testing the software by sending huge amount of data to database.
+    4. Soak or Endurance testing: Testing the software by applying the load for particular period of time.
